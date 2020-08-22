@@ -1,0 +1,113 @@
+{
+    "pets": [
+        {
+            "id": 1,
+            "raca": "akita",
+            "cor": "azul",
+            "data": "17/08/220",
+            "img": "https://dog.ceo/dog-api/documentation/breed"
+        },
+        {
+            "id": 2,
+            "raca": "chow-chow",
+            "cor": "azul",
+            "data": "17/08/220",
+            "img": "https://images.dog.ceo/breeds/hound-afghan/n02088094_1007.jpg"
+        },
+        {
+            "id": 3,
+            "raca": "lulu",
+            "cor": "azul",
+            "data": "17/08/220",
+            "img": "https://images.dog.ceo/breeds/hound-afghan/n02088094_11182.jpg"
+        },
+        {
+            "id": 4,
+            "raca": "bilu",
+            "cor": "azul",
+            "data": "17/08/220",
+            "img": "https://images.dog.ceo/breeds/hound-afghan/n02088094_11584.jpg"
+        },
+        {
+            "id": 5,
+            "raca": "pastor alemão",
+            "cor": "azul",
+            "data": "17/08/220",
+            "img": "https://images.dog.ceo/breeds/hound-afghan/n02088094_1592.jpg"
+        }
+    ],
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "mouse Microsoft",
+            "valor": 15.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "mouse.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Teclado Microsoft",
+            "valor": 30.00,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "teclado.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Monitor Samsung",
+            "valor": 250.00,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "monitor.jpg"
+        },
+        {
+            "id": 4,
+            "nome": "Laptop Asus",
+            "valor": 3000.00,
+            "promocao": true,
+            "valorPromo": 999.90,
+            "imagem": "laptop.jpg"
+        },
+        {
+            "id": 5,
+            "nome": "Headset Microsoft",
+            "valor": 10.50,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "headset.jpg"
+        },
+        {
+            "id": 6,
+            "nome": "Webcam Logitech",
+            "valor": 90.00,
+            "promocao": true,
+            "valorPromo": 49.99,
+            "imagem": "webcam.jpg"
+        },
+        {
+            "id": 7,
+            "nome": "Galaxy S10+",
+            "valor": 3000.00,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "celular.jpg"
+        },
+        {
+            "id": 8,
+            "nome": "Mousepad Microsoft",
+            "valor": 5.50,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "mousepad.jpg"
+        },
+        {
+            "id": 9,
+            "nome": "Go Pro 8",
+            "valor": 300.00,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "gopro.jpg"
+        }
+    ]
+}
