@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "RXJS": {
+    "promise": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -40,7 +40,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/RXJS",
+            "outputPath": "dist/promise",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -89,21 +89,21 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "RXJS:build"
+            "browserTarget": "promise:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "RXJS:build:production"
+              "browserTarget": "promise:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "RXJS:build"
+            "browserTarget": "promise:build"
           }
         }
       }
     }},
-  "defaultProject": "RXJS"
+  "defaultProject": "promise"
 }
